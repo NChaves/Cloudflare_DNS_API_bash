@@ -1,7 +1,8 @@
 # Cloudflare_DNS_API_bash
 Script to update Cloudflare DNS records as Cronjob
 
-Editing different sections of the script.
+## Editing different sections of the script.
+
 ## ## Cloudflare authentication details
 On the below section, you need to update the script with your Cloudflare account details. This includes email address, API token and the Zone ID that you want to keep updated.
 
