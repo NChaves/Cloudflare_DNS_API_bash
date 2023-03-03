@@ -3,7 +3,7 @@
 ## Cloudflare authentication details
 ## Keep these private
 cloudflare_auth_email=Your_Email
-cloudflare_auth_key="Your_API_Key"
+cloudflare_auth_key="Your_API_Token"
 zoneid="Your_Zone_ID"
 
 ## Cloudflare Proxied DNS Records as Array
