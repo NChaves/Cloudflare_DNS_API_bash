@@ -18,7 +18,9 @@ Just below the Zone ID, and Account ID, you can then also create a new API Token
 
 We created an API token with permissions as below;
 
-```All zones - DNS:Read, DNS:Edit```
+```
+All zones - DNS:Read, DNS:Edit
+```
 
 ## ## Cloudflare Proxied DNS Records as Array
 This section is an array of domain name entries, here you list the “A” records to be updated by the script.
@@ -63,7 +65,9 @@ You can also rename the files used, making them unique to the script, would sugg
 
 The script logs the last 1000 entries, you can increase or decrease the number of lines saved by changing the lines below;
 
-```echo "$(tail -n 1000 $log)" > $log```
+```
+echo "$(tail -n 1000 $log)" > $log
+```
 
 You will find them in lines 38 and 87 of the script.
 
